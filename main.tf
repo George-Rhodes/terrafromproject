@@ -24,6 +24,7 @@ module "mumbaiscaleset" {
   environment = "Development"
 }
 
+
 module "parisscaleset" {
   source      = "./Scaleset"
   location    = "francecentral"
